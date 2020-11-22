@@ -1,0 +1,54 @@
+
+div{
+	display:block;
+	margin:auto;
+	text-align:center;
+	width:30%;
+	float: right;
+}
+main{
+ display:block;
+ padding: 5% 3%;
+ padding-bottom: 25%; 
+ /*adjusted for float variables */
+
+}
+#im1{
+	display:block;
+	width:33%;
+	padding:4px;
+	float:right;
+}
+#im2{
+	 display:block;
+	 width:35%;
+	 padding:4px;
+	 float:left;
+	
+}
+footer{
+	clear:both;	 
+}
+
+ @media (max-width: 950px){
+	#im1{
+		float:none;
+		width:100%;
+	}
+	#im2{
+		float:none;
+		width:100%;
+	}
+	div{
+		display:block;
+		margin:0 2% 0 2%;
+		width:100%;	
+	}
+	main{
+		display:block;
+		padding: 5% 3%;
+		padding-bottom: 10%;
+	}
+	
+ }
+ }

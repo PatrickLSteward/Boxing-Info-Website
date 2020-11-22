@@ -1,0 +1,50 @@
+
+nav li:nth-child(3) {
+	background:lightblue;
+}
+
+main{
+	font-family: 'Roboto Slab', serif;
+}
+
+p{
+	width:63%;
+}
+
+div{
+	margin:5% auto 5% auto;
+	width:50%
+}
+main img{
+	transition: 3s;
+	-webkit-transition: 3s;
+	height: 200px;
+	width:200px; 
+	display:block;
+    float:right;
+}
+
+footer p{
+	text-align: center;
+	width: 100%;
+}
+
+
+	
+#image1:hover {
+	transform: rotate(90deg) transform: scale(2, 1);
+	-webkit-transform: rotate(90deg) scale(2, 1);
+}
+#image2:hover {
+	transform: skewX(60deg);
+	-webkit-transform: skewX(60deg);
+}
+
+#image4 {
+  -webkit-filter: brightness(200%); /* Safari */
+  filter: brightness(200%);
+}
+#image5 {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
